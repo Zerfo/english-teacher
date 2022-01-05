@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { render } from "react-dom";
 
-import App from "./App";
+import Root from "containers/root";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -11,7 +11,7 @@ const root = document.getElementById("root");
 
 render(
   <StrictMode>
-    <App />
+    <Root />
   </StrictMode>,
   root,
 );
